@@ -1,0 +1,37 @@
+title: Reom
+author: ComplexAce
+additional_authors: Hope
+license: Unknown
+
+char_obj: cm_reom
+default_hair_length: 0.1
+default_armature: rigify
+
+recurse_materials: true
+
+materials:
+  - Sclera_Cornea
+  - Iris
+  - Pupil
+  - Face
+  - Torso
+  - Arms
+  - Legs
+  - Mouth
+  - Tongue
+  - Gums
+  - Teeth
+
+armature:
+  rigify:
+    title: Rigify
+    type: rigify
+    obj_name: metarig
+    joints: joints/rigify.npz
+    weights: weights/rigify.npz
+  arp:
+    title: ARP
+    type: arp
+    obj_name: rig
+    joints: joints/arp.npz
+    weights: weights/arp.npz
